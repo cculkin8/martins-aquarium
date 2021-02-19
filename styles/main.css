@@ -1,0 +1,80 @@
+html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+	background-color: rgb(255, 244, 225);
+	margin: 0;
+}
+
+header {
+	background-color: darkcyan;
+}
+
+header .brand {
+	color: rgba(190,164,147);
+	font-size: 3em;
+	font-weight: 600;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	margin-left: 2em;
+}
+
+.grouper img {
+	width: 63%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+
+.main_section {
+	flex: 3;
+}
+
+aside {
+	margin: 0 2em;
+	flex: 1;
+}
+
+.lesser_fish {
+	background-color: rgba(190,164,147);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 3em;
+	padding-bottom: 1.5em;
+}
+
+.fish {
+	text-align: center;
+	max-width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+.fish img {
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+	background-color: darkcyan;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+
+footer a {
+	color: white;
+
+}
+
+footer a:hover {
+	color: darkslateblue;
+}
+
+h5 {
+	font-size: 1.2em;
+}
